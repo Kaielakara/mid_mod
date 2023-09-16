@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <!-- THIS IS FOR THE NAV BAR AND THE LOGO -->
+      <div
+        class="mx-auto flex w-[90%] flex-col md:flex-row md:justify-between md:pt-3 lg:w-[97%]"
+      >
+        <div class="mx-auto mt-5 md:mx-0">
+          <a href="index.html"> <img src="img/logo.svg" alt="" /></a>
+        </div>
+        <nav class="mx-auto my-9 font-mono md:mx-0 md:text-blue-800">
+          <ul class="md:space-x-6">
+            <a href="shop-page.html"><il>Shop</il></a>
+            <a href="blog-page.html" class="text-red-500"><il>Blog</il></a>
+            <a href="about-page.html"><il>About</il></a>
+            <a href="newsletter-page.html"><il>Newsletter</il></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="mx-auto w-[90%] lg:w-[97%]">
+      <!-- THIS IS FOR THE FIRST DIV AFTER THE NAVIGATION -->
+      <div class="lg:mt10 my-12 lg:mb-0">
+        <div
+          class="max-w-[800px] text-center lg:mx-auto lg:w-[70%] lg:text-left"
+        >
+          <p class="mx-auto w-[70%] text-4xl md:my-5 lg:mx-0">
+            Mid-Century Modern Blog
+          </p>
+          <p class="text-xl">
+            All the best mid-century designers, books, cocktails, music, and
+            more. If you'd like to know when we publish new articles,
+            <a
+              href="#"
+              class="underline decoration-yellow-400 underline-offset-4 hover:text-red-500 hover:decoration-red-500"
+            >
+              sign up for our newsletter.</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- THIS IS FOR THE FIRST LISTED OUT BREAKPOINT -->
+      <div class="">
+        <div
+          class="my-20 mb-10 md:grid md:grid-cols-2 md:gap-x-8 lg:grid lg:grid-cols-2 lg:gap-x-8"
+        >
+          <div>
+            <!-- THIS IS THE NEXT BREAKPOINT GARDEN -->
+
+            <div class="my-8 lg:w-[]">
+              <img
+                class="h-[450px] object-cover"
+                src="img/garden-div.jpg"
+                alt=""
+              />
+              <div class="my-3">
+                <button
+                  class="my-2 rounded-full bg-red-500 p-1 px-2 text-white"
+                >
+                  Garden
+                </button>
+                <p class="text-3xl">
+                  Mid-Century planters: Our favorites for the morden home
+                </p>
+                <p class="my-3 font-serif text-lg">
+                  Indoor planters are without a doubt one of the best ways to
+                  bring the outside in. In fact, mid century architects used
+                  natural light (along with other natural materials) to showcase
+                  nature at every turn.
+                </p>
+                <p class="text-red-500 hover:text-blue-800">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="inline h-6 w-6 text-red-500"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- THIS IS THE NEW DIV FOR FEATURED -->
+
+            <div class="my-8 lg:w-[]">
+              <img
+                class="h-[450px] object-cover"
+                src="img/office-div.jpg"
+                alt=""
+              />
+              <div class="my-3">
+                <button
+                  class="my-2 rounded-full bg-red-500 p-1 px-2 text-white"
+                >
+                  Feautured
+                </button>
+                <p class="text-3xl">
+                  Midcentury Modern Design: Designers and Architects of the era
+                </p>
+                <p class="my-3 font-serif text-lg">
+                  It's hard to fathom, but mid century modern design is still as
+                  popular now as it was 50 years ago. Don't believe us? Just
+                  take a quick visit to your local Target or West Elm and you'll
+                  see. The impact this iconic design era still has on the world
+                  is undeniable.
+                </p>
+                <p class="text-red-500 hover:text-blue-800">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="inline h-6 w-6 text-red-500"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THIS IS FOR THE NEW BREAKPOINT  -->
+      <div class="my-12 mt-16 flex flex-col lg:flex-row">
+        <!-- THIS IS FOR THE IMAGE  -->
+        <div>
+          <img
+            class="h-[450px] object-cover md:h-auto lg:h-full"
+            src="img/workspace.jpg"
+            alt=""
+          />
+        </div>
+
+        <!-- THIS IS FOR THE SUBSCRIPTION TO THE NEWSLETTER -->
+        <div class="bg-red-300 text-center lg:text-left">
+          <div class="mx-auto my-10 w-[85%]">
+            <p class="mt-8 font-mono text-white">Join the MidMod Newsletter</p>
+            <p class="my-3 text-4xl text-red-600">
+              We find the best mid-century modern products and deliver them
+              straight to your inbox
+            </p>
+            <div class="lg:grid lg:grid-cols-2 lg:gap-x-8">
+              <input
+                class="w-full p-3 text-center font-mono outline-red-600 placeholder:text-slate-600 lg:my-auto lg:text-left"
+                type="email"
+                name=""
+                id=""
+                placeholder="Email address"
+              />
+
+              <input
+                class="my-9 w-full p-3 text-center font-mono outline-red-600 placeholder:text-slate-600 lg:text-left"
+                type="text"
+                name=""
+                id=""
+                placeholder="First name"
+              />
+
+              <button
+                class="300ms flex w-full justify-around bg-sky-800 py-4 px-3 font-mono text-white transition-all ease-in-out hover:bg-red-400 lg:w-[50%]"
+              >
+                Sign up!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THIS IS A NEW DIV FOR ANOTHER BREAKPOINT -->
+      <div class="mt-20 md:grid md:grid-cols-2 md:gap-x-8">
+        <!-- THIS IS THE FIRST BREAKPOINT DESIGNER SPOTLIGHT  -->
+        <div class="my-8 lg:w-[]">
+          <img
+            class="h-[450px] object-cover"
+            src="img/designer spotlight.jpg"
+            alt=""
+          />
+          <div class="my-3">
+            <button class="my-2 rounded-full bg-red-500 p-1 px-2 text-white">
+              Designer Spotlight
+            </button>
+            <p class="text-3xl">Charles and Ray Eames</p>
+            <p class="my-3 font-serif text-lg">
+              We're starting off a new series on the blog called "Designer
+              Spotlight". In this segment, we'll highlight our favorite
+              designers of the mid-century modern era and bring their talents to
+              light. And since
+              <a
+                href="#"
+                class="underline decoration-yellow-500 underline-offset-4 hover:text-red-500 hover:decoration-red-500"
+              >
+                Charles and Ray Eames</a
+              >
+              are without a doubt some of the most well-known pioneers in their
+              field (actually, many fields), it only made sense to lead with
+              their brilliance.
+            </p>
+            <p class="text-red-500 hover:text-blue-800">
+              Read more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="inline h-6 w-6 text-red-500"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </p>
+          </div>
+        </div>
+
+        <!-- THIS IS THE NEXT BREAKPOINT MUSIC -->
+
+        <div class="my-8 lg:w-[]">
+          <img class="h-[450px] object-cover" src="img/music-div.jpg" alt="" />
+          <div class="my-3">
+            <button class="my-2 rounded-full bg-red-500 p-1 px-2 text-white">
+              Music
+            </button>
+            <p class="text-3xl">Retro Music for Modern Living</p>
+            <p class="my-3 font-serif text-lg">
+              We've decided to start a new series here on the MidMod blog, and
+              we're calling it "Retro Music for Modern Living". Each month we'll
+              feature a new retro, mid-century music album or Spotify playlist.
+              Our goal is to fill your
+              <a
+                href="#"
+                class="underline decoration-yellow-500 underline-offset-8 hover:text-red-500 hover:decoration-red-500"
+              >
+                mid-century modern home</a
+              >
+              with the best exotica, lounge, and swinging tunes that are sure to
+              make your next
+              <a
+                href="#"
+                class="underline decoration-yellow-500 underline-offset-8 hover:text-red-500 hover:decoration-red-500"
+              >
+                happy hour</a
+              >
+              a hit!
+            </p>
+            <p class="text-red-500 hover:text-blue-800">
+              Read more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="inline h-6 w-6 text-red-500"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </p>
+          </div>
+        </div>
+
+        <!-- THIS IS THE NEXT BREAKPOINT COCKTAILS -->
+        <div class="my-8 lg:w-[]">
+          <img class="h-[450px] object-cover" src="img/cocktail.jpg" alt="" />
+          <div class="my-3">
+            <button class="my-2 rounded-full bg-red-500 p-1 px-2 text-white">
+              Cocktails
+            </button>
+            <p class="text-3xl">The Old Fashioned</p>
+            <p class="my-3 font-serif text-lg">
+              The Old Fashioned is a classic cocktail from the mid-century era.
+              It came to popularity in the early 1960s, largely attributed to
+              the movie,<a
+                href="#"
+                class="underline decoration-yellow-500 underline-offset-4 hover:text-red-500 hover:decoration-red-500"
+              >
+                It's a Mad, Mad, Mad, Mad World.</a
+              >
+              However, many people were introduced to this beverage by the
+              enigmatic Don Draper, as it was his cocktail of choice in
+              <a
+                href="#"
+                class="underline decoration-yellow-500 underline-offset-8 hover:text-red-500 hover:decoration-red-500"
+                >Mad Men.</a
+              >
+            </p>
+            <p class="text-red-500 hover:text-blue-800">
+              Read more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="inline h-6 w-6 text-red-500"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </p>
+          </div>
+        </div>
+
+        <!-- THIS IS FOR THE FIRST LISTED OUT BREAKPOINT -->
+
+        <div>
+          <!-- THIS IS THE NEXT BREAKPOINT BOOKS -->
+
+          <div class="my-8 lg:w-[]">
+            <img
+              class="h-[450px] object-cover"
+              src="img/books-div.jpg"
+              alt=""
+            />
+            <div class="my-3">
+              <button class="my-2 rounded-full bg-red-500 p-1 px-2 text-white">
+                Books
+              </button>
+              <p class="text-3xl">
+                Mid-century Modern: Interiors, Furniture, and Design Details
+              </p>
+              <p class="my-3 font-serif text-lg">
+                As you can probably tell, we're pretty big fans of
+                <a
+                  href="#"
+                  class="underline decoration-yellow-500 underline-offset-4 hover:text-red-500 hover:decoration-red-500"
+                  >mid-century modern interior design.</a
+                >
+                But for those of us several decades removed from this amazing
+                time in architecture and design, it's hard to truly get a sense
+                of what life was like for folks living in the '50s.
+              </p>
+              <p class="text-red-500 hover:text-blue-800">
+                Read more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="inline h-6 w-6 text-red-500"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- THIS IS THE NEW DIV FOR FEATURED -->
+
+          <div class="my-8 lg:w-[]">
+            <img class="h-[450px] object-cover" src="img/news-div.jpg" alt="" />
+            <div class="my-3">
+              <button class="my-2 rounded-full bg-red-500 p-1 px-2 text-white">
+                News
+              </button>
+              <p class="text-3xl">Introducing the all-new MidMod!</p>
+              <p class="my-3 font-serif text-lg">
+                Today we're excited to announce the new and improved MidMod!
+                We've been working hard behind the scenes for weeks, and we're
+                finally ready to give you a look at what we've been up to. Let's
+                start with the obvious question: What the heck is MidMod? Well
+                we're glad you asked!
+              </p>
+              <p class="text-red-500 hover:text-blue-800">
+                Read more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="inline h-6 w-6 text-red-500"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="mx-auto mb-20 w-[90%] justify-between md:w-[50%] lg:mt-16 lg:flex lg:w-[98%]"
+      >
+        <div
+          class="my-5 flex justify-center md:my-5 lg:w-[5%] lg:justify-start"
+        >
+          <img class="md:w-[40%] lg:w-full" src="img/logo.svg" alt="" />
+        </div>
+        <div class="font-mono text-sm md:text-base lg:w-[60%]">
+          <div class="flex justify-between lg:mt-4 lg:w-[70%]">
+            <p
+              class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+            >
+              Shop
+            </p>
+            <p
+              class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+            >
+              Blog
+            </p>
+            <p
+              class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+            >
+              About
+            </p>
+            <p
+              class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+            >
+              Newsletter
+            </p>
+            <p
+              class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+            >
+              Conact
+            </p>
+            <p
+              class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+            >
+              Privacy
+            </p>
+          </div>
+        </div>
+        <div
+          class="mx-auto flex w-[65%] justify-between font-mono text-sm lg:mx-0 lg:mt-4 lg:w-[20%] lg:text-lg"
+        >
+          <p
+            class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+          >
+            Twitter
+          </p>
+          <p
+            class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+          >
+            Instagram
+          </p>
+          <p
+            class="300ms cursor-pointer transition-all ease-in-out hover:text-red-800"
+          >
+            ©2023
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
